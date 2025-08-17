@@ -1,0 +1,39 @@
+
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Software Pendula'
+theme = 'mini'
+defaultContentLanguage = 'en'
+
+hasCJKLanguage = true
+[pagination]
+	pagerSize = 5
+[markup]
+	[markup.highlight]
+		guessSyntax = true
+		style = 'emacs'
+	[markup.tableOfContents]
+		endLevel = 3
+		ordered = false
+		startLevel = 2
+	[markup.goldmark.renderer]
+		unsafe = true
+
+[social]
+	github = ''
+	twitter = ''
+	stackoverflow = ''
+
+[params]
+	author = 'Elroy Parkinson'
+	bio = 'Beyond the Hype Cycle'
+	description = 'My Blog'
+	enableRSS = true
+	enableComments = true
+	enableGoogleAnalytics = true
+	showToc = true
+	showPowerBy = true
+	math = false
+	hiddenPostSummaryInHomePage = false
+	copyright = ''
+	googleAnalytics = 'UA-XXXXXXXXX-X'

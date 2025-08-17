@@ -1,0 +1,35 @@
+# Hugo build output
+/public/
+
+# VS Code settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules (if any theme or build tooling uses them)
+node_modules/
+
+# Python virtual environments (if any)
+venv/
+.env/
+
+# Log files
+*.log
+
+# Backup files
+*~
+*.swp
+
+# Hugo cache
+/resources/_gen/
+
+# Ignore themes as submodules except for your own custom themes
+# (Uncomment if you want to ignore all themes except your own)
+# themes/*
+# !themes/mini
+
+# Ignore any other build artifacts
+/dist/
+
